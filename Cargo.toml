@@ -1,0 +1,19 @@
+[package]
+name = "rollbackmap"
+version = "0.1.0"
+edition = "2018"
+
+authors = [
+  "Taras Sich <metal4people@gmail.com>"
+]
+
+description   = "Map interface with rollback support"
+license       = "MIT"
+homepage      = "https://github.com/metal4people/rollbackmap"
+repository    = "https://github.com/metal4people/rollbackmap"
+readme        = "README.md"
+keywords      = ["rollback map", "map checkpoint"]
+categories    = ["data-structures"]
+
+[dev-dependencies]
+criterion = "0.3.4"
